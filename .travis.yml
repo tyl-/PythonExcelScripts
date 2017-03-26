@@ -2,4 +2,13 @@ language: python
 python:
  - "2.7"
 install: pip install -r requirements.txt
-script: generate
+script:
+ - python generate.py
+ - python monthlyupdate.py
+ - python salesupdate.py
+ - python tipsupdate.py
+ - python customerupdate.py
+ - python "Monthly Report 2017/click_me_to_update.py"
+ - python "Specific Report 2017/Sales 2017/click_me_to_update.py"
+ - python "Specific Report 2017/Tips 2017/click_me_to_update.py
+ - python "Specific Report 2017/NumberOfCustomer 2017/click_me_to_update.py
