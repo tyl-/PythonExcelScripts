@@ -10,5 +10,5 @@ script:
  - python customerupdate.py
  - python "Monthly Report 2017/click_me_to_update.py"
  - python "Specific Report 2017/Sales 2017/click_me_to_update.py"
- - python "Specific Report 2017/Tips 2017/click_me_to_update.py
- - python "Specific Report 2017/NumberOfCustomer 2017/click_me_to_update.py
+ - python "Specific Report 2017/Tips 2017/click_me_to_update.py"
+ - python "Specific Report 2017/NumberOfCustomer 2017/click_me_to_update.py"
