@@ -122,14 +122,14 @@ def updateExcel():
 
                         wb2 = load_workbook(filename = dailyDir + months[int(sMS) - 1] + "/" + sF, data_only=True)
                         ws2 = wb2.active
-                        print "sales", ws2['D6'].value, ws2['D14'].value
-                        cashSales += ws2['D6'].value
+                        print "sales", ws2['D5'].value, ws2['D14'].value
+                        cashSales += ws2['D5'].value
                         creditSales += ws2['D14'].value
 
                     print "sale totals", cashSales, creditSales
                     ws['D'+str(i)].value = cashSales
                     ws['E'+str(i)].value = creditSales
-                    wb.save("./" + file)
+                    wb.save(salesDir + file)
 
                 
         
