@@ -7,7 +7,7 @@ A collection of Python scripts that make it easier to generate and update excel 
 ## Main Goals
 
 The main goals for this program are:
-- In Progress: Python script to generate excel spreadsheets based on templates.
+- Completed: Python script to generate excel spreadsheets based on templates.
 - In Progress: Python script to update monthly reports based on daily entries.
 - In Progress: Python script to update specific reports based on a specified range of daily reports.
 
@@ -17,7 +17,11 @@ The main goals for this program are:
 
 ## Initial Completion Date
 
+- In Progress...
+
 ## Goal Changes
+
+- In Progress: Python scripts to update files can be run both at the root directory and in the file directory.
 
 ---
 
