@@ -29,6 +29,9 @@ The main goals for this program are:
 
 - **August 11, 2017**
 > - Minor template fixes.
+> - Added simple GUI to generate.py
+> - Added option to select year (up to 2030) to generate.py
+> - Added option to overwrite/skip existing files to generate.py
 
 - **March 17, 2017**
 > - Initial completion.
