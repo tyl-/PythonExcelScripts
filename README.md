@@ -27,7 +27,11 @@ The main goals for this program are:
 
 ## Updates
 
-- Last updated March 26, 2017
+- **August 11, 2017**
+> - Minor template fixes.
+
+- **March 17, 2017**
+> - Initial completion.
 
 ---
 
